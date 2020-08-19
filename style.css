@@ -72,6 +72,12 @@ section {
     border-radius: 5em;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .icon-footer {
     padding: 3em;
     display: flex;
@@ -81,7 +87,7 @@ section {
 .icon-list {
     list-style: none;
     margin: 0.5em 0.5em 0 0;
-    margin-left: 0.15em;
+    /* margin-left: 0.15em; */
 }
 
 .icon-link {
