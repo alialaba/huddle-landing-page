@@ -1,0 +1,137 @@
+:root {
+    --color-Violet: hsl(257, 40%, 49%);
+    --color-light: #ffffff;
+}
+
+::before ::after {
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: -8em;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 1.2rem;
+    background-color: var(--color-Violet);
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-one {
+    background-image: url('images/bg-mobile.svg');
+    background-size: cover;
+}
+
+section {
+    text-align: center;
+    margin-top: 4em;
+    color: var(--color-light);
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    /* margin-bottom: 3em; */
+    display: flex;
+    /* justify-items: flex-end; */
+}
+
+.logo-img {
+    margin-top: 1em;
+}
+
+.mockup-img {
+    padding-top: 2em;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.sub-title {
+    margin-bottom: 3em;
+}
+
+.btn {
+    margin-bottom: 3em;
+    background-color: var(--color-light);
+    color: var(--color-Violet);
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: .60em 4.5em;
+    border-radius: 5em;
+}
+
+.icon-footer {
+    padding: 3em;
+    display: flex;
+    align-items: center;
+}
+
+.icon-list {
+    list-style: none;
+    margin: 0.5em;
+    margin-left: 0.15em;
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px white solid;
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    list-style: none;
+    text-decoration: none;
+}
+
+.icon {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.icon i {
+    color: white;
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+@media(min-width:800px) {
+    body {
+        background-image: url('images/bg-desktop.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.8;
+    }
+    .row {
+        display: flex;
+    }
+    .section-one {
+        width: 57%;
+    }
+    .section-two {
+        width: 35%;
+        margin-top: 17em;
+        text-align: left;
+    }
+    .footer {
+        display: flex;
+    }
+    .icon-footer {
+        justify-content: flex-end;
+        margin-top: -5em;
+    }
+}
