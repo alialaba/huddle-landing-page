@@ -80,7 +80,8 @@ section {
 
 .icon-list {
     list-style: none;
-    margin: 0.5em;
+    margin: 0.5em 0.5em 0 0;
+    margin-left: 0.15em;
 }
 
 .icon-link {
@@ -98,6 +99,7 @@ section {
 
 .icon {
     display: flex;
+    align-items: center;
     /* justify-content: center;
     align-items: center; */
 }
